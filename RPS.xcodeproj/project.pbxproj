@@ -14,6 +14,8 @@
 		45B8C655208A23D5000A6F24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B8C653208A23D5000A6F24 /* LaunchScreen.storyboard */; };
 		45B8C660208A23D5000A6F24 /* RPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B8C65F208A23D5000A6F24 /* RPSTests.swift */; };
 		45B8C66B208A23D5000A6F24 /* RPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B8C66A208A23D5000A6F24 /* RPSUITests.swift */; };
+		45B8C679208A2446000A6F24 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B8C678208A2446000A6F24 /* Sign.swift */; };
+		45B8C67B208A254D000A6F24 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B8C67A208A254D000A6F24 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		45B8C666208A23D5000A6F24 /* RPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B8C66A208A23D5000A6F24 /* RPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSUITests.swift; sourceTree = "<group>"; };
 		45B8C66C208A23D5000A6F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B8C678208A2446000A6F24 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		45B8C67A208A254D000A6F24 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				45B8C651208A23D5000A6F24 /* Assets.xcassets */,
 				45B8C653208A23D5000A6F24 /* LaunchScreen.storyboard */,
 				45B8C656208A23D5000A6F24 /* Info.plist */,
+				45B8C678208A2446000A6F24 /* Sign.swift */,
+				45B8C67A208A254D000A6F24 /* GameState.swift */,
 			);
 			path = RPS;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45B8C64D208A23D4000A6F24 /* ViewController.swift in Sources */,
+				45B8C67B208A254D000A6F24 /* GameState.swift in Sources */,
 				45B8C64B208A23D4000A6F24 /* AppDelegate.swift in Sources */,
+				45B8C679208A2446000A6F24 /* Sign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHTY8G44B7;
 				INFOPLIST_FILE = RPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHTY8G44B7;
 				INFOPLIST_FILE = RPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
